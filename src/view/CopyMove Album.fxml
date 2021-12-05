@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="156.0" prefWidth="357.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.CMController">
+   <children>
+      <Text layoutX="94.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Destination Album:" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="albums" layoutX="56.0" layoutY="57.0" prefHeight="25.0" prefWidth="290.0" />
+      <Text layoutX="14.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Album:" />
+      <Button fx:id="copy" layoutX="250.0" layoutY="105.0" mnemonicParsing="false" text="Copy" onAction="#convert"/>
+      <Button fx:id="cancel" layoutX="190.0" layoutY="105.0" mnemonicParsing="false" text="Cancel" onAction="#convert"/>
+      <Button fx:id="move" layoutX="300.0" layoutY="105.0" mnemonicParsing="false" text="Move" onAction="#convert"/>
+   </children>
+</AnchorPane>
+	

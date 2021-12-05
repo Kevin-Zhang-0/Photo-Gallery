@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="201.0" prefWidth="289.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.TSController">
+   <children>
+      <Text layoutX="104.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search by Tag:" />
+      <Button fx:id="search" layoutX="226.0" layoutY="162.0" mnemonicParsing="false" onAction="#convert" text="Search" />
+      <ChoiceBox fx:id="tag1" layoutX="15.0" layoutY="40.0" prefHeight="25.0" prefWidth="103.0" />
+      <TextField fx:id="tagVal1" layoutX="118.0" layoutY="40.0" prefHeight="25.0" prefWidth="159.0" />
+      <ChoiceBox fx:id="andOr" layoutX="15.0" layoutY="75.0" prefHeight="25.0" prefWidth="59.0" />
+      <ChoiceBox fx:id="tag2" layoutX="15.0" layoutY="123.0" prefHeight="25.0" prefWidth="103.0" />
+      <TextField fx:id="tagVal2" layoutX="119.0" layoutY="123.0" prefHeight="25.0" prefWidth="159.0" />
+      <Button fx:id="back" layoutX="181.0" layoutY="162.0" mnemonicParsing="false" onAction="#convert" text="Back" />
+      <Text layoutX="52.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tag 1" />
+      <Text layoutX="52.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tag 2" />
+   </children>
+</AnchorPane>
